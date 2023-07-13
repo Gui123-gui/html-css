@@ -12,22 +12,20 @@
         table{
             border-collapse: collapse;
             width: 500px;
-            
+            height: 500px;
         }
 
         td{
             border: 1px solid black;
             padding: 5px;
+            text-align: center; /*Alinhamento horizontal*/
+            vertical-align: middle; /*Alinhamento Vertical*/
         }
 
-        tr.linha{
-            background-color: blueviolet;
+        .numero{
+            text-align: right;
         }
-
-        td.dado{
-            background-color: aqua;
-        }
-
+        
        
     </style>
 
@@ -39,8 +37,8 @@
 <body>
     <h1>Minha primeira Tabela</h1>
     <table>
-         <tr class="linha">
-            <td>A1</td>
+         <tr>
+            <td class="numero">A1</td>
             <td>B1</td>
             <td>C1</td>
          </tr>
@@ -52,7 +50,7 @@
          </tr>
 
          <tr>
-            <td class="dado">A3</td>
+            <td>A3</td>
             <td>B3</td>
             <td>C3</td>
          </tr>
