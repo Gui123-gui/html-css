@@ -14,6 +14,13 @@
             border-collapse: collapse;
         }
 
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 5px;
+            background-color: rgb(199, 197, 197);
+        }
+
         td,th{
             border: 1px solid black;
             padding: 10px;
@@ -49,13 +56,13 @@
     <table>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
 
 
-        
+        <caption>Tabela Populacional</caption>
         <tbody>
             <tr>
                 <td>
@@ -148,7 +155,7 @@
 
         <tfoot>
             <tr>
-                <td>Total de Habitantes</td>
+                <td scope="row">Total de Habitantes</td>
                 <td><strong>157.379.777</strong></td>
             </tr>
             
